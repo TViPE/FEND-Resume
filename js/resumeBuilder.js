@@ -50,33 +50,29 @@ bio.display();
 
 //Work Experience
 var work = {
-    "jobs": [
-        {
-            "employer": "Tata Consultancy Services",
-            "title": "Software Engineer",
-            "dates": "09/2014 - 08/2016",
-            "location": "New York, NY",
-            "description": [
-			"Involved in full-stack validation of the enterprise inventory management software",
-			"Performed frontend, backend, performance, security, and usability testing",
-			"Debugged and modified existing software to correct errors/crashes.",
-			"Evaluated the system under load and collaborated with developers to fix performance regressions."
-			],
-            "url": "http://www.tcs.com"
-	},
-        {
-            "employer": "Stony Brook University",
-            "title": "Software Intern",
-            "dates": "01/2013 - 08/2014",
-            "location": "Stony Brook, NY",
-            "description": [
-			"Participated in development and testing of software modules for healthcare application.",
-			"Performed various code reviews and was involved in five pair programming sessions."
-			],
-            "url": "http://www.stonybrook.edu"
-
-	}
-	]
+    "jobs": [{
+        "employer": "Tata Consultancy Services",
+        "title": "Software Engineer",
+        "dates": "09/2014 - 08/2016",
+        "location": "New York, NY",
+        "description": [
+            "Involved in full-stack validation of the enterprise inventory management software",
+            "Performed frontend, backend, performance, security, and usability testing",
+            "Debugged and modified existing software to correct errors/crashes.",
+            "Evaluated the system under load and collaborated with developers to fix performance regressions."
+        ],
+        "url": "http://www.tcs.com"
+    }, {
+        "employer": "Stony Brook University",
+        "title": "Software Intern",
+        "dates": "01/2013 - 08/2014",
+        "location": "Stony Brook, NY",
+        "description": [
+            "Participated in development and testing of software modules for healthcare application.",
+            "Performed various code reviews and was involved in five pair programming sessions."
+        ],
+        "url": "http://www.stonybrook.edu"
+    }]
 };
 
 //displaying work experience
