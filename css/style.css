@@ -3,7 +3,6 @@ div,
 ul,
 li,
 p,
-h1,
 h2,
 h3,
 h4,
@@ -11,7 +10,11 @@ h5,
 h6 {
   padding:0;
   margin:0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cabin", sans-serif;
+}
+
+h1 {
+  font-family: "Bungee", cursive;
 }
 
 .clear-fix {
@@ -34,7 +37,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: #BF360C;
   line-height: 29px;
   padding: 10px;
 }
@@ -124,12 +127,12 @@ a {
 }
 
 .dark-gray {
-  background-color: #4a4a4a;
+  background-color: #1976D2;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #1976D2;
 }
 
 .flex-box {
@@ -161,6 +164,7 @@ ul {
   padding: 10px;
   width: 200px;
   display: none;
+  border-radius: 50%;
 }
 
 img {
