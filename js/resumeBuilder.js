@@ -86,15 +86,21 @@ work.display();
 //displaying project
 var projects = {
     "projects": [{
+    	"title": "Arcade Game - Crossy Quuen",
+        "dates": "01/2017",
+        "description": "The objective of this project is to develop a cloned classic game from Udacity. Udacity provided the visual assest and game loop enginer. My role in this project is to program the player, enemies, and other games entities in JavaScript, HTML, and CSS. I also design the fully functional responsive game layouts for mobile screens.",
+        "images": [],
+        "url": "https://github.com/TViPE/FEND-Arcade-Game"
+    },{
         "title": "Online Resume",
         "dates": "12/2016",
-        "description": "The objective of this project is creating my online resume. The online resume is created on HTML, CSS, JavaScript, and JQuery.",
+        "description": "The objective of this project is to creat my online resume. Building an online resume masters the skills of an front-end web developer. This resume will be updated with weekly projects.",
         "images": [],
-        "url": "https://github.com/TViPE/frontend-nanodegree-resume"
+        "url": "https://github.com/TViPE/FEND-Resume"
 	}, {
         "title": "Online Portfolio",
         "dates": "11/2016",
-        "description": "The objective of this project is creating my online portfolio. This porfolio contains all of my work experinces in diffrent technology fields and my Art Portfolio.",
+        "description": "The objective of this project is to design and develop my online portfolio. This porfolio contains all of my work experinces in diffrent technology fields and my Art Portfolio.",
         "images": [],
         "url": "https://github.com/TViPE/Project_Build-A-Portfolio-Site_Tri-Vi"
 	}, {
