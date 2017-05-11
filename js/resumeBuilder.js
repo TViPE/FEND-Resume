@@ -47,6 +47,13 @@ bio.display();
 //Work Experience
 var work = {
     "jobs": [{
+        "employer": "Self-Employed",
+        "title": "Software Engineer",
+        "dates": "11/2016 - present",
+        "location": "New York, NY",
+        "description": "Developing Web Applications",
+        "url": "http://github.com/TViPE"
+    },{
         "employer": "Tata Consultancy Services",
         "title": "Software Engineer",
         "dates": "09/2014 - 08/2016",
@@ -86,7 +93,25 @@ work.display();
 //displaying project
 var projects = {
     "projects": [{
-    	"title": "Arcade Game - Crossy Quuen",
+        "title": "Feedreader",
+        "dates": "04/2017",
+        "description": "Use Jasmine to write a number of tests against a pre-existing application. These will test the underlying business logic of the application as well as the event handling and DOM manipulation.",
+        "images": [],
+        "url": "https://github.com/TViPE/FEND-Feedreader"
+    },{
+        "title": "Neighborhood Map",
+        "dates": "03/2017",
+        "description": "This is a single-page application featuring a map of a chosen neighborhood. The application functionality includes map markers to identify locations, a search function to easily discover these locations, and a listview to support simple browsing of all locations. The application is build with Knockout.js, Google Maps API, and Foursquare API.",
+        "images": [],
+        "url": "https://github.com/TViPE/FEND-NeighborHood-Map"
+    },{
+        "title": "Website Performance Optimization",
+        "dates": "02/2017",
+        "description": "Measured and optimized a provided website with a number of optimization- and performance-related issues.  Achieved 95 with PageSpeed Insights score and runs at 60 frames per second.",
+        "images": [],
+        "url": "https://github.com/TViPE/FEND-mobile-portfolio"
+    },{
+    	"title": "Arcade Game - Crossy Queen",
         "dates": "01/2017",
         "description": "The objective of this project is to develop a cloned classic game from Udacity. Udacity provided the visual assest and game loop enginer. My role in this project is to program the player, enemies, and other games entities in JavaScript, HTML, and CSS. I also design the fully functional responsive game layouts for mobile screens.",
         "images": [],
